@@ -1,2 +1,3 @@
 # Harvard
-Projects assigned by Harvard
+
+Project 1 assigned by Harvard
