@@ -1,3 +1,3 @@
 # Harvard
 
-Project 1 assigned by Harvard
+Project 1.0 assigned by Harvard
