@@ -1,5 +1,8 @@
 {% extends "layout.html"%}{% block title%} Welcome {%endblock%} {%block head%}
-<a href="{{url_for('register')}}">Register</a>{%endblock%} {%block body%}
-<h1>Welcome</h1>
-
+{%endblock%} {%block body%}
+<div style="text-align: center;">
+  <h1>Welcome</h1>
+  <div class="row center-block"><a href="{{url_for('login')}}">Login</a></div>
+  <div class="row"><a href="{{url_for('register')}}">New? Sign up!</a></div>
+</div>
 {%endblock%}
