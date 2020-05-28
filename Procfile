@@ -1,1 +1,1 @@
-web: gunicorn books:app
+web: gunicorn booksrent.wsgi --log-file -
