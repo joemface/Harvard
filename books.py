@@ -17,19 +17,19 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/register")
-def register():
-    return render_template("register.html")
+# @app.route("/register")
+# def register():
+    # return render_template("register.html")
 
 
-@app.route("/registerUser")
-def registerUser():
-    return render_template("login.html")
+# @app.route("/registerUser")
+# def registerUser():
+    # return render_template("login.html")
 
 
-@app.route("/login")
-def login():
-    return render_template("login.html")
+# @app.route("/login")
+# def login():
+    # return render_template("login.html")
 
 
 res = requests.get("https://www.goodreads.com/book/review_counts.json",
